@@ -46,9 +46,12 @@ const styles = StyleSheet.create({
     backgroundColor: 'black',
     width: '20%',
     borderRadius: 5,
-    alignItems: 'center'
+    alignItems: 'center',
+    padding: 20
   },
   butaoContainer:{
+flexDirection: 'row',
+flexWrap: "wrap"
 
   }
     
