@@ -5,7 +5,8 @@ import { Text, View, StyleSheet, TouchableOpacity } from 'react-native';
 
 export default function App() {
   return (
-    <View style={styles.container}> <View style={styles.butaoContainer}>
+    <View style={styles.container}> 
+    <View style={styles.butaoContainer}>
      <TouchableOpacity styles={styles.butao}>
       <Text styles={styles.butaoText}>
         -
@@ -38,5 +39,8 @@ const styles = StyleSheet.create({
     width: '20%',
     borderRadius: 5,
     alignItems: 'center'
-  }
+  },
+  butaoContainer:{
+    
+  
 });
