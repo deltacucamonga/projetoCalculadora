@@ -51,7 +51,9 @@ const styles = StyleSheet.create({
   },
   butaoContainer:{
 flexDirection: 'row',
-flexWrap: "wrap"
+flexWrap: "wrap",
+justifyContent: "center",
+width: "80%"
 
   }
     
