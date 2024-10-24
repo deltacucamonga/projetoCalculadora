@@ -12,7 +12,15 @@ export default function App() {
         -
       </Text>
      </TouchableOpacity>
-    
+     <TouchableOpacity styles={styles.butao}>
+      <Text styles={styles.butaoText}>
+        +
+      </Text>
+     </TouchableOpacity>  <TouchableOpacity styles={styles.butao}>
+      <Text styles={styles.butaoText}>
+        x
+      </Text>
+     </TouchableOpacity>
  
     </View>
      </View>
@@ -41,6 +49,7 @@ const styles = StyleSheet.create({
     alignItems: 'center'
   },
   butaoContainer:{
+
+  }
     
-  
 });
